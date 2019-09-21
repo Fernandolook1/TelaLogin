@@ -78,12 +78,12 @@ class ClipHome extends CustomClipper<Path>{
       fifthControlPoint.dx, fifthControlPoint.dy, 
       fifthEndPoint.dx, fifthEndPoint.dy);
 
-    var sixthControlPoint = Offset(width-5, 7);
-    var sixthEndPoint = Offset(width-12, 5);
+    var sixthControlPoint = Offset(width-0, -4);
+    var sixthEndPoint = Offset(width-10, 1);
     path.quadraticBezierTo(
       sixthControlPoint.dx, sixthControlPoint.dy, 
       sixthEndPoint.dx, sixthEndPoint.dy);
-    path.lineTo(width-7, 0);
+    path.lineTo(width-2, 0);
     path.close();
     return path;
 
